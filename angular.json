@@ -25,7 +25,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              {
+                "input": "src/theme-lara-light-teal.scss",
+                "bundleName": "lara-light-teal",
+                "inject": false
+              },
+              {
+                "input": "src/theme-lara-dark-teal.scss",
+                "bundleName": "lara-dark-teal",
+                "inject": false
+              }
             ],
             "scripts": []
           },
@@ -94,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c350c59e-084e-4189-9560-fb065fad4194"
   }
 }
